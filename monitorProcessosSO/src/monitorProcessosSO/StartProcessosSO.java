@@ -18,6 +18,7 @@ public class StartProcessosSO {
 			// Execute command thru Runtime
 			p = runTime.exec("tasklist"); // For Windows
 			// p=r.exec("ps ux"); //For Linux
+			// p=r.exec("ps ax"); //For MAC
 
 			// Create Inputstream for Read Processes
 			InputStream inputStream = p.getInputStream();
